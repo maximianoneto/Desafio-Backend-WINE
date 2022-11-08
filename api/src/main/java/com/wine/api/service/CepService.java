@@ -34,7 +34,4 @@ public class CepService {
         }
     }
 
-    public void deleteByRangeStartAndRangeEnd(Long rangeStart, Long rangeEnd) {
-        cepRepository.deleteByRangeStartAndRangeEnd1(rangeStart, rangeEnd);
-    }
 }
